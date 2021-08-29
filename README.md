@@ -5,3 +5,6 @@ My personal configurations for various applications and programs I use.
 * ```.ideavimrc```
 * Depends on IntelliMacs plugin:
 https://github.com/MarcoIeni/intellimacs
+
+### Tmux
+* ```.tmux.conf```
