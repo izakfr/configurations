@@ -27,6 +27,6 @@ function! NetrwMapping()
 endfunction
 
 " Leader shortcuts
-nmap <leader>e :Lexplore<CR> 		"toggle netrw
-nmap <leader>r :e $MYVIMRC<CR>	"open vimrc
+nmap <leader>e :Lexplore<CR> "toggle netrw
+nmap <leader>r :e $MYVIMRC<CR> "open vimrc
 
