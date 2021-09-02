@@ -9,3 +9,5 @@ https://github.com/MarcoIeni/intellimacs
 ### Tmux
 * ```.tmux.conf```
 
+### Vim
+* ```.vimrc```
