@@ -3,9 +3,6 @@ set number relativenumber
 " Do incremental searching.
 set incsearch
 
-" Don't use Ex mode, use Q for formatting.
-map Q gq
-
 source ~/.intellimacs/spacemacs.vim
 source ~/.intellimacs/extra.vim
 source ~/.intellimacs/major.vim
@@ -13,12 +10,19 @@ source ~/.intellimacs/major.vim
 " NERDTree configurations
 set NERDTree
 let g:NERDTreeMapActivateNode='l'
+let g:NERDTreeMapCloseDir='h'
 let g:NERDTreeFind='/'
-:nmap <leader>l :NERDTree<CR>
-:nmap <leader>L :NERDTreeClose<CR>
+nmap <leader>ee :NERDTreeFocus<CR>
+nmap <leader>EE :NERDTreeClose<CR>
 
 " scrolling
 nmap <leader>d <C-d>
 nmap <leader>u <C-u>
-vmap <leader>u <C-u>
 vmap <leader>d <C-d>
+vmap <leader>u <C-u>
+
+" window navigation
+nmap <C-l> <leader>wl
+nmap <C-k> <leader>wk
+nmap <C-j> <leader>wj
+nmap <C-h> <leader>wh
