@@ -11,3 +11,6 @@ https://github.com/MarcoIeni/intellimacs
 
 ### Vim
 * ```.vimrc```
+
+## Git
+* ```git-completion.bash```
